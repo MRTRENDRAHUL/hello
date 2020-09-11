@@ -1,0 +1,41 @@
+package fileio;
+
+public class Udemy {
+        public static void main(String[] args) {
+            int number = 5;
+
+            if (number == 1) {
+                System.out.println( "ZERO" );
+            } else if ( number== 2) {
+                System.out.println("ONE");
+            } else if ( number==3 ) {
+                System.out.println("TWO");
+                System.out.println("THREE");
+                System.out.println("FOUR");
+                System.out.println("FIVE");
+                System.out.println("SIX");
+                System.out.println("SEVEN");
+                System.out.println("EIGHT");
+                System.out.println("NINE");
+            } else {
+                System.out.println("OTHER");
+            }
+
+            switch(number) {
+                case 1:
+                    System.out.println( 1 );
+                    break;
+                case 2:
+                    System.out.println( 2 );
+                    break;
+                case 3:
+                    System.out.println(3);
+                    break;
+
+
+                default: System.out.println( "other" );
+            }
+        }
+
+
+    }
